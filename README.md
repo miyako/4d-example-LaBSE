@@ -2,9 +2,9 @@
 
 **LaBSE** (Language-agnostic BERT Sentence Embedding) is a text embedding model released by **Google** in 2020. It was trained on a vocabulary of `17` billion words in `109` languages and `6` billion pairs of English and  non-English sentences.
 
-|`max_position_embeddings`|`hidden_size`|`num_hidden_layers`
-|-:|-:|-:|
-|`512`|`768`|`12`
+|`max_position_embeddings`|`hidden_size`|`num_hidden_layers`|`pooling`
+|-:|-:|-:|-:|
+|`512`|`768`|`12`|`cls`
 
 ```4d
 var $en; $fr : 4D.Vector

@@ -13,9 +13,3 @@ $cosineSimilarity:=$en.cosineSimilarity($fr)
 //0.83846724182051
 
 ALERT:C41([$cosineSimilarity].join())
-
-/*
-
-this model is quite slow on cpu...
-
-*/
